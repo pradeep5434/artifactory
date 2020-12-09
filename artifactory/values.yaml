@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: artifactory
+  repository: docker.bintray.io/jfrog/artifactory-pro:latest
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
